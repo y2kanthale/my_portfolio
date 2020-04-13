@@ -44,12 +44,13 @@ class ProfileInfo extends StatelessWidget {
         height: 10,
       ),
       Text(
-        "An UX Designer & Beginner in Flutter Web Development.\n"
+        "A Frontend Developer, UX Designer & Beginner in Flutter web development.\n"
         "I also want to be a youtuber and start a youtube channel\n"
-        "where I make tutorials for technology & designing.",
+        "where I can make videos on tutorials, talk about diffrent technologies\n"
+        "and help community to grow",
         softWrap: true,
-        textScaleFactor: 1.5,
-        style: TextStyle(color: Colors.white70),
+        textScaleFactor: 1.2,
+        style: TextStyle(color: Colors.white60, height:1.5),
       ),
       SizedBox(
         height: 20,
@@ -72,11 +73,11 @@ class ProfileInfo extends StatelessWidget {
           ),
           RaisedButton(
             shape: StadiumBorder(),
-            child: Text("Twitter"),
+            child: Text("Dribble"),
             color: Colors.red,
             onPressed: () {
               html.window.open(
-                  "https://twitter.com/y2kanthale", "Yogesh Kanthale Twitter");
+                  "https://dribbble.com/y2kanthale", "Yogesh Kanthale Dribbble");
             },
             padding: EdgeInsets.all(10),
           ),
